@@ -1,0 +1,64 @@
+@media screen and (max-device-width: 600px) {
+    span {
+        font-size: 14px;
+      }
+      p {
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        height: 27px;
+      }
+      #inline-div-first {
+        width: 30px;
+        margin-left: 26px;
+      }
+      .inline-div {
+        width: 31px;
+      }
+      .left-div {
+        width: 10px;
+        height: 275px;
+        margin-left: 20px;
+        padding-top: 25px;
+      }
+      #background {
+        width: 300px;
+        height: 300px;
+        padding: 0px;
+      }
+      #main-border {
+        padding: 1px;
+        width: 256px;
+        height: 256px;
+      }
+      #main {
+        border: 2px solid;
+        width: 248px;
+        height: 248px;
+        margin: 2px;
+        padding: 0px;
+      }
+      .notMain {
+          height: 31.2px;
+      }
+      .black {
+        height: 30px;
+        width: 31px;
+        margin: 0px;
+        padding: 0px;
+      }
+      .white {
+        height: 30px;
+        width: 31px;
+        margin: 0px;
+        padding: 0px;
+      }
+      .white:hover {
+        background-color: red;
+        transition: 2s;
+      }
+      .black:hover {
+        transition: 2s;
+        background-color: red;
+      }
+}
